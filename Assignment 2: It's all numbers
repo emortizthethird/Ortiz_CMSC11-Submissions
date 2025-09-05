@@ -1,0 +1,23 @@
+GPS location data is an example of data being represented by numbers.
+Locations like Cebu City or Gorordo Avenue, Lahug are always thought of by it's name.
+But computers don't understand names like humans do.
+Instead, locations are set as numbers called latitude and longitude.
+Latitude is how far north or south you are from the equator, while longitude measures how far east or west you are from the prime meridian.
+Similar to a cartesian plane where the latitude is the y-coordinate and the longitude is the x-coordiante.
+An example of this is Cebu City being represented in this format.
+Where its latitude is 10.3157 degrees and its longitude is 123.8854 degrees.
+At first glance, they seem like regular decimal numbers, but in actuality they're very precise.
+Even a reeeaaally slight change in the decimals could shift your location by several meters on the map.
+That precision is why floating numbers are used to store GPS data inside computers.
+When your phone or some sort of location tracking device determines your location, it doesn't just magically know where you are in the whole world.
+It receives signals from multiple different satellites orbiting the Earth.
+Each satellite sending timing information that your device uses to calculate how far away it is.
+By combining signals collected from at least four different satellites, your device can figure out your exact position on Earth as a pair of latitude and longitude numbers.
+But sometimes the accuracy of these devices could be affected by satellite obstructions, low power mode, software issues, physical interfernece, and atmospheric conditions.
+Even then, once those numbers are calculated, your device stores them in binary form.
+From there, softwares like Google Maps or Apple Maps, if you're feeling fancy, takes those numbers and uses them in different ways.
+Like displaying your location on the map, calculating the distance between where you want to go, and to give you directions by comparing your live coordinates with stored map data.
+What looks like a very simple map on your screen is actually the result of a lot of number crunching happening behind the scenes.
+The movement on the screen isn't actually you moving, but rather the coordinates calculated being constantly updated over and over in real time.
+Hi sir if you read this at 80 words per minute it would be a 5 minute read.
+Thank you sir and have a great day!
